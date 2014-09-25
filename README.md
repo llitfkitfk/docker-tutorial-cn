@@ -19,7 +19,7 @@ docker 配置
 -----------
 
 ```text
-  // 配置 docker image 路径 到  /mnt/docker 你可以编辑修改选择自己的docker image的储存路径
+  // 配置 docker image路径到/mnt/docker 默认路径是/var/lib/docker 用户可编辑选择自己的docker image的储存路径
   ./docker_config.sh
 ```
 
@@ -34,9 +34,13 @@ docker 开启
 
 Docker 命令
 ------------
-*   [run](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
-* images
-* ps
+* [run](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
+* [images](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
+* [ps](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
+* * [ps](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
+* * [ps](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
+* * [ps](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
+* * [ps](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
 
 
 
@@ -76,12 +80,4 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 ```
