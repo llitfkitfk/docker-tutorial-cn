@@ -1,7 +1,7 @@
-docker-tutorial-cn
+docker-tutorial-cn  inspired by [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
 ==================
 
-docker 教程 centos 6.5                                         
+docker 教程 --- Linux-relase: centos 6.5                                         
 
 
 
@@ -13,13 +13,35 @@ docker 安装
   ./docker_install.sh
 ```
 
+
+
 docker 配置
 -----------
 
 ```text
+  // 配置 docker image路径到/mnt/docker 默认路径是/var/lib/docker 用户可编辑选择自己的docker image的储存路径
   ./docker_config.sh
 ```
 
+
+docker 开启
+-----------
+
+```text
+  // docker 开启启动  已经 docker 服务开启
+  ./start_docker.sh
+```
+
+Docker 命令
+------------
+* [run](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
+* [images](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/images)
+* [ps](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/ps)
+* [rm](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/rm)
+* [rmi](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/rmi)
+* [pull](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/pull)
+* [push](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/push)
+* [commit](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/commit)
 
 
 Developed By
@@ -33,6 +55,9 @@ Developed By
 &nbsp;&nbsp;&nbsp;**QQ群** - 136064709
 
 &nbsp;&nbsp;&nbsp;**Website** - www.htian.info
+
+
+
 
 
 
@@ -55,12 +80,4 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 ```
