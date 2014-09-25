@@ -1,7 +1,8 @@
-docker-tutorial-cn  inspired by [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
+docker-tutorial-cn  
 ==================
 
-docker 教程 --- Linux-relase: centos 6.5                                         
+docker 教程 --- Linux-relase: centos 6.5     
+```- inspired by``` [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
 
 
 
