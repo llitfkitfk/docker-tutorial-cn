@@ -1,7 +1,7 @@
 docker-tutorial-cn
 ==================
 
-docker 教程 centos 6.5                                         
+docker 教程 --- Linux-relase: centos 6.5                                         
 
 
 
@@ -13,12 +13,30 @@ docker 安装
   ./docker_install.sh
 ```
 
+
+
 docker 配置
 -----------
 
 ```text
+  // 配置 docker image 路径 到  /mnt/docker 你可以编辑修改选择自己的docker image的储存路径
   ./docker_config.sh
 ```
+
+
+docker 开启
+-----------
+
+```text
+  // docker 开启启动  已经 docker 服务开启
+  ./start_docker.sh
+```
+
+Docker 命令
+------------
+*   [run](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
+* images
+* ps
 
 
 
@@ -33,6 +51,9 @@ Developed By
 &nbsp;&nbsp;&nbsp;**QQ群** - 136064709
 
 &nbsp;&nbsp;&nbsp;**Website** - www.htian.info
+
+
+
 
 
 
