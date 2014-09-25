@@ -1,3 +1,2 @@
 #!/bin/bash
-
-vim /etc/sysconfig/docker
+echo "other_args=\"-g /mnt/docker\"" > /etc/sysconfig/docker

@@ -1,3 +1,5 @@
 #!/bin/bash
 
-docker -d -g /mnt/docker &
+service docker start
+
+chkconfig docker on
