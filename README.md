@@ -5,6 +5,39 @@ docker 教程 centos 6.5
 
 
 
+
+docker 安装
+-----------
+
+```text
+  ./docker_install.sh
+```
+
+docker 配置
+-----------
+
+```text
+  ./docker_config.sh
+```
+
+
+
+Developed By
+------------
+
+* llitfkitfk 
+ 
+
+&nbsp;&nbsp;&nbsp;**Email** - llitfkitfk@gmail.com
+
+&nbsp;&nbsp;&nbsp;**QQ群** - 136064709
+
+&nbsp;&nbsp;&nbsp;**Website** - www.htian.info
+
+
+
+
+
 Liscence
 ========
 
