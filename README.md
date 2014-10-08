@@ -1,7 +1,8 @@
-docker-tutorial-cn  inspired by [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
+docker-tutorial-cn  
 ==================
 
-docker 教程 --- Linux-relase: centos 6.5                                         
+docker 教程 --- Linux-relase: centos 6.5     
+```- inspired by``` [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
 
 
 
@@ -34,14 +35,14 @@ docker 开启
 
 Docker 命令
 ------------
-* [run](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)
-* [images](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/images)
-* [ps](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/ps)
-* [rm](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/rm)
-* [rmi](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/rmi)
-* [pull](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/pull)
-* [push](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/push)
-* [commit](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/commit)
+* [run](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/run)       ```- docker images 运行```
+* [images](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/images) ```- docker images 查看```
+* [ps](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/ps)         ```- docker containers 查看```
+* [rm](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/rm)         ```- docker containers 删除```
+* [rmi](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/rmi)       ```- docker images 删除```
+* [pull](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/pull)     ```- dockerhub images 拉取```
+* [push](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/push)     ```- dockerhub images 更新```
+* [commit](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/commit) ```- dockerhub images 提交```
 
 
 Developed By
