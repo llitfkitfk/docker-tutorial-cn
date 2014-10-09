@@ -5,11 +5,6 @@ docker 教程 --- Linux-relase: centos 6.5
 ```- inspired by``` [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
 
 
-docker 生态圈
------------
-![screenshot](https://raw.githubusercontent.com/llitfkitfk/docker-tutorial-cn/master/docker_ecosys.png)
-
-
 docker 安装
 -----------
 
@@ -46,6 +41,12 @@ Docker 命令
 * [pull](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/pull)     ```- dockerhub images 拉取```
 * [push](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/push)     ```- dockerhub images 更新```
 * [commit](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/commit) ```- dockerhub images 提交```
+
+
+
+docker 生态圈
+-----------
+![screenshot](https://raw.githubusercontent.com/llitfkitfk/docker-tutorial-cn/master/docker_ecosys.png)
 
 
 Developed By
