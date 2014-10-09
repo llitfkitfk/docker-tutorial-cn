@@ -1,8 +1,7 @@
 docker-tutorial-cn  
 ==================
 
-docker 教程 --- Linux-relase: centos 6.5     
-```- inspired by``` [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
+docker 教程 --- Linux-relase: centos 6.5 - inspired by [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
 
 
 docker 推荐文章
@@ -13,7 +12,7 @@ docker 推荐文章
 docker 安装
 -----------
 
-```text
+```
   ./docker_install.sh
 ```
 
@@ -22,7 +21,7 @@ docker 安装
 docker 配置
 -----------
 
-```text
+```
   // 配置 docker image路径到/mnt/docker 默认路径是/var/lib/docker 用户可编辑选择自己的docker image的储存路径
   ./docker_config.sh
 ```
@@ -31,7 +30,7 @@ docker 配置
 docker 开启
 -----------
 
-```text
+```
   // docker 开启启动  已经 docker 服务开启
   ./start_docker.sh
 ```
@@ -57,7 +56,7 @@ docker 生态圈
 Developed By
 ------------
 
-* llitfkitfk 
+* ####llitfkitfk 
  
 
 &nbsp;&nbsp;&nbsp;**Email** - llitfkitfk@gmail.com
