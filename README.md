@@ -5,6 +5,9 @@ docker 教程 --- Linux-relase: centos 6.5
 ```- inspired by``` [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
 
 
+docker 生态圈
+-----------
+![screenshot](https://raw.githubusercontent.com/llitfkitfk/docker-tutorial-cn/master/docker_ecosys.png)
 
 
 docker 安装
