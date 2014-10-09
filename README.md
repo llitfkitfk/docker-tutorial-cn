@@ -49,8 +49,8 @@ Docker 命令
 
 
 docker 生态圈
------------
-![screenshot](https://raw.githubusercontent.com/llitfkitfk/docker-tutorial-cn/master/docker_ecosys.png)
+-------------
+[查看](https://raw.githubusercontent.com/llitfkitfk/docker-tutorial-cn/master/docker_ecosys.png)
 
 
 Developed By
