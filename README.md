@@ -62,9 +62,9 @@ Developed By
 
 &nbsp;&nbsp;&nbsp;**Email** - llitfkitfk@gmail.com
 
-&nbsp;&nbsp;&nbsp;**QQ群** - 136064709
+&nbsp;&nbsp;&nbsp;**QQ** - 281196448
 
-&nbsp;&nbsp;&nbsp;**Website** - www.htian.info
+&nbsp;&nbsp;&nbsp;**Website** - www.github.com/llitfkitfk
 
 
 
