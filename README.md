@@ -7,8 +7,8 @@ docker 教程 --- Linux-relase: centos 6.5
 
 docker 推荐文章
 ---------------
-*[Docker源码分析(一):Docker架构](http://www.infoq.com/cn/articles/docker-source-code-analysis-part1)
-*[Running GUI apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
+* [Docker源码分析(一):Docker架构](http://www.infoq.com/cn/articles/docker-source-code-analysis-part1)
+* [Running GUI apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
 
 docker 安装
 -----------
