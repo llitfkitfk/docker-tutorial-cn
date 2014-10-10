@@ -1,15 +1,16 @@
-docker-tutorial-cn  
+Docker-tutorial-cn  
 ==================
 
-docker 教程 --- Linux-relase: centos 6.5 - inspired by [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
+Docker 教程 --- Linux-relase: centos 6.5 - inspired by [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
 
 
-docker 推荐文章
+Docker 推荐文章
 ---------------
 * [Docker源码分析(一):Docker架构](http://www.infoq.com/cn/articles/docker-source-code-analysis-part1)
 * [Running GUI apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
+* [深入浅出Docker](http://www.infoq.com/cn/articles/docker-core-technology-preview)
 
-docker 安装
+Docker 安装
 -----------
 
 ```
@@ -18,7 +19,7 @@ docker 安装
 
 
 
-docker 配置
+Docker 配置
 -----------
 
 ```
@@ -27,7 +28,7 @@ docker 配置
 ```
 
 
-docker 开启
+Docker 开启
 -----------
 
 ```
@@ -47,10 +48,15 @@ Docker 命令
 * [commit](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/commit) ```- dockerhub images 提交```
 
 
+Dockerfile
+----------
+* [Dockerfile](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/dockerfile) ```- dockerhub images 提交```
 
-docker 生态圈
+
+
+Docker 生态圈
 -------------
-[查看](https://raw.githubusercontent.com/llitfkitfk/docker-tutorial-cn/master/docker_ecosys.png)
+* [查看](https://raw.githubusercontent.com/llitfkitfk/docker-tutorial-cn/master/docker_ecosys.png)
 
 
 
