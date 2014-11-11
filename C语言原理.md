@@ -28,7 +28,7 @@ In this article, we will walk through the entire language and show you how to be
 
 ```
 
-[c-exec]()
+![](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/ref/c-exec.gif)
 
 This animation shows the execution of a simple C program. By the end of this article you will understand how it works!
 
@@ -126,7 +126,7 @@ To compile this code, take the following steps:
 -> 如果您正在使用其他的编译器或开发系统，阅读并遵照您使用的编译器的规范去执行程序。
 ```
 
-[c-compile]()
+![](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/ref/c-compile.gif)
 
 *A computer program is the key to the digital city: If you know the language, you can get a computer to do almost anything you want. Learn how to write computer programs in C.*
 
@@ -378,7 +378,7 @@ You can also delete the b variable in the first line of the above program and se
 
 ###Branching and Looping
 
-[c-if]()
+![](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/ref/c-if.gif)
 
 In C, both **if** statements and **while** loops rely on the idea of **Boolean expressions**. Here is a simple C program demonstrating an if statement:
 
