@@ -406,6 +406,6 @@ int main()
 You can also delete the b variable in the first line of the above program and see what the compiler does when you forget to declare a variable. Delete a semicolon and see what happens. Leave out one of the braces. Remove one of the parentheses next to the main function. Make each error by itself and then run the program through the compiler to see what happens. By simulating errors like these, you can learn about different compiler errors, and that will make your typos easier to find when you make them for real.
 
 
-| PREVIOURS	| NEXT
-| :------: | :------:
-| [上一篇](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/CTutorial.md#introduction-to-the-basics-of-c-programming)  | [下一篇](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/cTutorial/cTutorial_Looping.md)
+| PREVIOURS	| TOP | NEXT
+| :------: | :-------: | :------:
+| [上一篇](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/CTutorial.md)  | [带我飞](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/CTutorial.md#introduction-to-the-basics-of-c-programming)| [下一篇](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/cTutorial/cTutorial_Looping.md)

@@ -43,7 +43,7 @@ Notice that C uses == to **test for equality**, while it uses = to **assign a va
 Here are all of the Boolean operators in C:
 
 ```
-equality			==
+equality		==
 less than		<
 Greater than	>
 <=				<=
@@ -132,15 +132,6 @@ It is slightly confusing, but it is possible. The **comma operator** lets you se
 Boolean expressions evaluate to integers in C, and integers can be used inside of Boolean expressions. The integer value 0 in C is False, while any other integer value is True. The following is legal in C:
 If a is anything other than 0, the printf statement gets executed.
 In C, a statement like if (a=b) means, "Assign b to a, and then test a for its Boolean value." So if a becomes 0, the if statement is False; otherwise, it is True. The value of a changes in the process. This is not the intended behavior if you meant to type == (although this feature is useful when used correctly), so be careful with your = and == usage.*
-
-```
-```
-> **TRY THIS!**
-> 
-> *Try changing the Fahrenheit-to-Celsius program so that it uses scanf to accept the starting, ending and increment value for the table from the user.
-Add a heading line to the table that is produced.
-Try to find a different solution to the bug fixed by the previous example.
-Create a table that converts pounds to kilograms or miles to kilometers.*
 
 
 ###Looping: A Real Example
@@ -257,3 +248,15 @@ int main()
 * Putting = when you mean == in an if or while statement
 * Forgetting to increment the counter inside the while loop - If you forget to increment the counter, you get an infinite loop (the loop never ends).
 * Accidentally putting a ; at the end of a for loop or if statement so that the statement has no effect - For example: for (x=1; x<10; x++); printf("%d\n",x); only prints out one value because the semicolon after the for statement acts as the one line the for loop executes.
+
+> **TRY THIS!**
+> 
+> *Try changing the Fahrenheit-to-Celsius program so that it uses scanf to accept the starting, ending and increment value for the table from the user.
+Add a heading line to the table that is produced.
+Try to find a different solution to the bug fixed by the previous example.
+Create a table that converts pounds to kilograms or miles to kilometers.*
+
+
+| PREVIOURS	| TOP | NEXT
+| :------: | :-------: | :------:
+| [上一篇](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/CTutorial.md)  | [带我飞](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/cTutorial/cTutorial_Looping.md#branching-and-looping)| [下一篇](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/cTutorial/cTutorial_Looping.md)

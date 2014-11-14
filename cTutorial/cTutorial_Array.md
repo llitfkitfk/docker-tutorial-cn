@@ -114,3 +114,154 @@ for (i=0; i < MAX; i++)
 This code **sorts** the random values and prints them in sorted order. Each time you run it, you will get the same values. If you would like to change the values that are sorted, change the value of rand_seed each time you run the program.
 
 The only easy way to truly understand what this code is doing is to execute it "by hand." That is, assume **MAX** is 4 to make it a little more manageable, take out a sheet of paper and pretend you are the computer. Draw the array on your paper and put four random, unsorted values into the array. Execute each line of the sorting section of the code and draw out exactly what happens. You will find that, each time through the inner loop, the larger values in the array are pushed toward the bottom of the array and the smaller values bubble up toward the top.
+
+
+> **TRY THIS!**
+>
+> * *In the first piece of code, try changing the for loop that fills the array to a single line of code. Make sure that the result is the same as the original code.
+* *Take the bubble sort code out and put it into its own function. The function header will be void bubble_sort(). Then move the variables used by the bubble sort to the function as well, and make them local there. Because the array is global, you do not need to pass parameters.*
+* *Initialize the random number seed to different values.*
+
+---
+
+> **C ERRORS TO AVOID**
+> 
+> * *C has no range checking, so if you index past the end of the array, it will not tell you about it. It will eventually crash or give you garbage data.*
+* *A function call must include () even if no parameters are passed. For example, C will accept x=rand;, but the call will not work. The memory address of the rand function will be placed into x instead. You must say x=rand();.*
+
+
+###More on Arrays
+
+####Variable Types
+There are three standard variable types in C:
+
+* **Integer: int**
+* **Floating point: float**
+* **Character: char**
+
+An int is a 4-byte integer value. A float is a 4-byte floating point value. A char is a 1-byte single character (like "a" or "3"). A string is declared as an array of characters.
+
+There are a number of derivative types:
+
+* **double** (8-byte floating point value)
+* **short** (2-byte integer)
+* **unsigned short** or **unsigned int** (positive integers, no sign bit)
+
+####Operators and Operator Precedence
+
+The operators in C are similar to the operators in most languages:
+
+* **+ - addition**
+* **- - subtraction**
+* **/ - division**
+* **\* - multiplication**
+* **% - mod**
+
+The / operator performs integer division if both operands are integers, and performs floating point division otherwise. For example:
+
+```
+void main()
+{
+    float a;
+    a=10/3;
+    printf("%f\n",a);
+}
+```
+
+This code prints out a floating point value since a is declared as type **float**, but a will be 3.0 because the code performed an integer division.
+
+**Operator precedence** in C is also similar to that in most other languages. Division and multiplication occur first, then addition and subtraction. The result of the calculation 5+3*4 is 17, not 32, because the * operator has higher precedence than + in C. You can use parentheses to change the normal precedence ordering: (5+3)*4 is 32. The 5+3 is evaluated first because it is in parentheses. We'll get into precedence later -- it becomes somewhat complicated in C once pointers are introduced.
+
+####Typecasting
+
+C allows you to perform type conversions on the fly. You do this especially often when using pointers. Typecasting also occurs during the assignment operation for certain types. For example, in the code above, the integer value was automatically converted to a float.
+
+You do typecasting in C by placing the type name in parentheses and putting it in front of the value you want to change. Thus, in the above code, replacing the line **a=10/3;** with **a=(float)10/3;** produces 3.33333 as the result because 10 is converted to a floating point value before the division.
+
+####Typedef
+You declare named, user-defined types in C with the **typedef** statement. The following example shows a type that appears often in C code:
+
+```
+#define TRUE  1
+#define FALSE 0
+typedef int boolean;
+
+void main()
+{
+    boolean b;
+
+    b=FALSE;
+    blah blah blah
+}
+```
+
+This code allows you to declare Boolean types in C programs.
+
+If you do not like the word "float'' for real numbers, you can say:
+
+```
+typedef float real;
+```
+and then later say:
+
+```
+real r1,r2,r3;
+```
+
+You can place typedef statements anywhere in a C program as long as they come prior to their first use in the code.
+
+####Structures
+Structures in C allow you to group variable into a package. Here's an example:
+
+```
+struct rec
+{
+    int a,b,c;
+    float d,e,f;
+};
+
+struct rec r;
+```
+As shown here, whenever you want to declare structures of the type **rec**, you have to say **struct rec**. This line is very easy to forget, and you get many compiler errors because you absent-mindedly leave out the **struct**. You can compress the code into the form:
+
+```
+struct rec
+{
+    int a,b,c;
+    float d,e,f;
+} r;
+```
+where the type declaration for **rec** and the variable **r** are declared in the same statement. Or you can create a typedef statement for the structure name. For example, if you do not like saying **struct rec r** every time you want to declare a record, you can say:
+
+```
+typedef struct rec rec_type;
+```
+
+and then declare records of type **rec_type** by saying:
+
+```
+rec_type r;
+```
+
+You access fields of structure using a period, for example, **r.a=5;**.
+
+####Arrays
+You declare arrays by inserting an array size after a normal declaration, as shown below:
+
+```
+int a[10];        /* array of integers */
+char s[100];      /* array of characters
+                    (a C string) */
+float f[20];      /* array of reals */
+struct rec r[50]; /* array of records */
+```
+
+####Incrementing
+
+```
+Long Way     Short Way
+i=i+1;       i++;
+i=i-1;       i--;
+i=i+3;       i += 3;
+i=i*j;       i *= j;
+```
