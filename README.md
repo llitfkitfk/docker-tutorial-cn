@@ -1,4 +1,4 @@
-Docker-tutorial-cn  
+Docker-tutorial  
 ==================
 
 Docker 教程 --- Linux-relase: centos 6.5 - inspired by [Andrew T. Baker](https://github.com/atbaker/docker-tutorial)
@@ -47,6 +47,7 @@ Docker 命令
 * [push](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/push)     ```- dockerhub images 更新```
 * [commit](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/commit) ```- dockerhub images 提交```
 
+* [exec	](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/exec) ```- docker containers 运行时修改```
 
 Dockerfile
 ----------
@@ -61,6 +62,11 @@ Docker 生态圈
 * [docker.cn](https://docker.cn)
 
 
+C 语言原理
+-----------------
+
+* [C Tutorial](https://github.com/llitfkitfk/docker-tutorial-cn/blob/master/C%E8%AF%AD%E8%A8%80%E5%8E%9F%E7%90%86.md)
+
 
 Developed By
 ------------
@@ -72,7 +78,7 @@ Developed By
 
 &nbsp;&nbsp;&nbsp;**QQ** - 281196448
 
-&nbsp;&nbsp;&nbsp;**Website** - www.github.com/llitfkitfk
+&nbsp;&nbsp;&nbsp;**Website** - htian.info
 
 
 
