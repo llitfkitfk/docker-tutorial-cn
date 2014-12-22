@@ -9,6 +9,7 @@ Docker 推荐文章
 * [Docker源码分析(一):Docker架构](http://www.infoq.com/cn/articles/docker-source-code-analysis-part1)
 * [Running GUI apps with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
 * [深入浅出Docker](http://www.infoq.com/cn/articles/docker-core-technology-preview)
+* [Docker Image瘦身](http://www.cnblogs.com/e2tox/p/4027756.html)
 
 Docker 安装
 -----------
@@ -53,7 +54,15 @@ Dockerfile
 ----------
 * [Dockerfile](https://github.com/llitfkitfk/docker-tutorial-cn/tree/master/dockerfile) ```- dockerhub images 提交```
 
-
+```
+FROM scratch
+ADD
+WORKDIR
+VOLUME
+EXPOSE
+ENTRYPOINT
+CMD
+```
 
 Docker 生态圈
 -------------
