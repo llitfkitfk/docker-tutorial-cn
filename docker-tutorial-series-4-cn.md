@@ -1,4 +1,4 @@
-##docker教程系列 4 Docker Registry
+##Docker教程系列 4 Docker Registry
 
 在前边Docker教程系列文章中，我们讨论了DockerFile的重要性并提供了使自动构建镜像更容易的一系列DockerFile的命令。在这篇文章中，让我们来谈谈一个重要的Docker组件：Docker Registry。这是中央登记处对于所有库，公有的还是私有的以及他们的工作流程。但是，在我们深入Docker Registry之前，先让我们去了解一些常见的术语和库相关的概念。
 

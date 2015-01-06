@@ -1,4 +1,4 @@
-##docker教程系列 1 Introduction
+##Docker教程系列 1 Introduction
 
 Docker，容器技术的新趋势，其轻巧，便携深得人心，“只需一次构建＋配置，就可以随处运行”的功能。
 这是Flux7的Docker教程系列的第一部分。随着我们一起前进，我们将学习和理解Docker有什么不同，以及如何物尽其用。
@@ -76,7 +76,7 @@ Docker使用以下操作系统的功能来提高容器技术效率：
 
 目前为止一个基本的了解足够了。因此，让我们继续前进，安装Docker！
 
-###Installing Docker: A Quick Guide
+###安装Docker: 快速指南
 
 
 下面让我们来讨论如何在Ubuntu 12.04 LTS安装Docker:
