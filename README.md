@@ -80,21 +80,13 @@ C 语言原理
 
 Developed By
 ------------
+**田浩浩**，[悉尼大学USYD](http://sydney.edu.au/engineering/it/)硕士研究生，目前在珠海从事Android应用开发工作。业余时间专注Docker的学习与研究，
 
-####llitfkitfk 
- 
+* **贡献社区** - [DockerOne](http://dockerone.com/people/llitfkitfk)
 
-&nbsp;&nbsp;&nbsp;**Email** - llitfkitfk@gmail.com
+* **Email** - <llitfkitfk@gmail.com>
 
-&nbsp;&nbsp;&nbsp;**QQ** - 281196448
-
-&nbsp;&nbsp;&nbsp;**Website** - htian.info
-
-
-
-
-
-
+* **QQ** - [281196448]()
 
 
 Liscence
