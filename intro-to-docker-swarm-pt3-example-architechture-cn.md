@@ -23,7 +23,7 @@ Docker Swarm带来的最令人兴奋的事情之一是用非常小的开销就�
 
 ![](http://technolo-g.com/images/consul/swarm_section.png)
 
-* **Registrator daemon**：当创建或者销毁容器时，Registrator是用来更新Consul的。它监听Docker socket以及接下来的每个事件将会更新Consul 的键/值。例如，一个名叫deepthought的应用需要3个在分离的主机的实例并运行在80端口上，其会在Consul创建一个结构如下：
+* **Registrator daemon**：当创建或者销毁容器时，[Registrator](https://github.com/progrium/registrator)是用来更新Consul的。它监听Docker socket以及接下来的每个事件将会更新Consul 的键/值。例如，一个名叫deepthought的应用需要3个在分离的主机的实例并运行在80端口上，其会在Consul创建一个结构如下：
 
 ![](http://technolo-g.com/images/consul/services_section.png)
 
@@ -54,7 +54,7 @@ Docker Swarm带来的最令人兴奋的事情之一是用非常小的开销就�
 * 能够与Consul通信
 * 能够与所有的Docker守护进程进行通信
 
-由于但我还没有看到提到制作群守护程序本身HA的，但它的工作后，真的似乎没有任何理由，这不可能。我期待与TCP支持（HAProxy的）负载平衡代理可以放在几个群守护进程相对容易前面。粘性会话都必须启用，可能是一个积极的/如果有多个群守护进程之间的状态同步问题被动，但现在看来似乎是可行的。由于容器不继续运行，并且可访问的，即使在一个群失败，我们将接受过的复杂性和负载均衡节点的开销的非公顷群节点的风险的情况下。权衡吧？
+由于我还没有看到提到有关制作Swarm守护程序本身，但研究了它之后，真的似乎没有任何理由它不能成的。我期待带有TCP支持的负载平衡代理（HAProxy）可以放在几个相对缓和的Swarm守护进程的前端。相黏会话必须启用并且可能是一个积极或者消极的状态，如果有多个Swarm守护进程之间的状态同步问题，但现在看来它似乎是可行的。由于容器是继续运行并且可访问的，即使在一个Swarm故障的情况下，我们会接受过于复杂与负载均衡节点的开销的non-ha Swarm节点的风险。这样的权衡不错吧？
 
 ###服务发现层
 该服务发现层是运行一个Consul集群节点上;具体来说它是键/值存储的。为了维持法定个数（n/2 + 1个节点）即使在出现故障的情况下节点数也应该是个奇数。Consul有一个[非常大的特征集](http://www.consul.io/docs/index.html)，仅举几例包括自动服务发现、健康检查与键/值存储。我们只使用了键/值存储，但我希望结合Consul的其他方面到您的架构也能带来诸多好处。对于此配置示例，以下是处理是作用在键/值的存储：
@@ -75,7 +75,7 @@ Consul也有一个可安装的GUI（图形化用户界面）而且我强烈建�
 
 * HAProxy或Nginx：这些服务器都是充分证明了战斗力的，并准备好所需要任何东西，即使是在边缘。Consul-template动态配置该服务并在需要时重新加载。这种主要变化的频繁出现的情况主要是终端的一个特定的虚拟主机列表的修改。由于是现存的东西来维护列表并且在Consul中，它的变化和容器一样频繁。
 
-这是基于SOA的一个泊Docker Swarm集群的简要概述。在接下来的文章中，我将演示一个上述的工作基础设施。这篇文章将会在[Docker Denver Meetup](http://www.meetup.com/Docker-Denver/events/218859311/) 后发布，敬请关注！
+这是基于SOA的一个泊Docker Swarm集群的简要概述。在接下来的文章中，我将演示一个上述在Vagrant环境下的工作基础设施。这篇文章将会在[Docker Denver Meetup](http://www.meetup.com/Docker-Denver/events/218859311/) 后发布，敬请关注！
 
 
 
@@ -83,7 +83,7 @@ Consul也有一个可安装的GUI（图形化用户界面）而且我强烈建�
 
 * [https://github.com/technolo-g/docker-swarm-demo](https://github.com/technolo-g/docker-swarm-demo)
 
-**原文链接：[Intro to Docker Swarm: Part 2 - Configuration Options and Requirements](http://technolo-g.com/intro-to-docker-swarm-pt2-config-options-requirements/) （翻译：[田浩浩](https://github.com/llitfkitfk)）**
+**原文链接：[Intro to Docker Swarm: Part 3 - Example Swarm SOA](http://technolo-g.com/intro-to-docker-swarm-pt3-example-architechture/) （翻译：[田浩浩](https://github.com/llitfkitfk)）**
 
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 **译者介绍**
@@ -92,4 +92,5 @@ Consul也有一个可安装的GUI（图形化用户界面）而且我强烈建�
 ------------------------------------------
 [Docker Swarm入门（一）概观](http://dockerone.com/article/168)
 [Docker Swarm入门（二）配置选项与需求](http://dockerone.com/article/178)
+[Docker Swarm入门（三）Swarm SOA举例](http://dockerone.com/article/192)
 
