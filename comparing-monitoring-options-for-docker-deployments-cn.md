@@ -139,3 +139,12 @@ docker run -d --privileged --name dd-agent             \
 
 ![](http://rancher.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-21-at-2.56.04-PM.png)
 
+您也可以点击Dashboards标签并点击创建仪表板以合计您整个群集的指标。 Datadog收集系统中运行的所有容器中有关CPU使用率、内存以及I/O的指标。此外，您也可以获得运行和停止的容器计数以及Docker的镜像数量。Dashboard视图允许您创建基于任何指标或者设置在整个部署、主机群或者容器镜像的指标的图表。例如下图显示了运行容器的数量并加以镜像类型分类，此刻在我的集群运行了9个Ubuntu:14.04的容器。
+
+![](http://rancher.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-21-at-2.35.21-PM.png)
+
+您还可以通过主机分类同样的数据，如下图所示，7个容器在我的Rancher主机上运行，其余的在我的本地的笔记本电脑。
+
+![](http://rancher.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-21-at-3.14.10-PM.png)
+
+DataDog还支持一种称为Monitors的警报功能。DataDog的一个monitor相当于Scout的一个触发器，并允许您定义各种指标的阈值。 DataDog的警报系统是一个很大的灵活和细致再斥候。下面的例子说明如何指定您关心的Ubuntu容器终止因此你会监视docker.containers.running度量从Ubuntu创建容器：14.04Docker的镜象。
