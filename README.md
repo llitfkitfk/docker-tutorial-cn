@@ -70,7 +70,7 @@ Docker 生态圈
 -------------
 * [思维导图](https://raw.githubusercontent.com/llitfkitfk/docker-tutorial-cn/master/docker_ecosys.png)
 
-* [docker.cn](https://docker.cn)
+* [dockone.io](https://dockone.io/)
 
 
 C 语言原理
@@ -81,13 +81,13 @@ C 语言原理
 
 Developed By
 ------------
-**田浩浩**，[USYD](http://sydney.edu.au/engineering/it/)硕士研究生，目前在珠海从事Android应用开发工作。业余时间专注Docker的学习与研究，
+**田浩**，目前在珠海从事Docker开发及运维工作。
 
 * **贡献社区** - [DockerOne](http://dockone.io/people/llitfkitfk)
 
 * **Email** - <llitfkitfk@gmail.com>
 
-* **QQ** - [281196448]()
+* **微信** - [281196448]()
 
 
 Liscence
